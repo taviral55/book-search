@@ -142,7 +142,7 @@ const resolvers = {
           $or: [{ _id: data._id }, { username: data.username }],
         });
         return foundUser;
-      } catch (error) {}
+      } catch (error) { }
     },
   },
 };
